@@ -1,0 +1,24 @@
+[project]
+name = "fin_anal"
+version = "0.1.0"
+description = "fin_anal using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.8.1"
+]
+
+[project.scripts]
+fin_anal = "fin_anal.main:run"
+run_crew = "fin_anal.main:run"
+train = "fin_anal.main:train"
+replay = "fin_anal.main:replay"
+test = "fin_anal.main:test"
+run_with_trigger = "fin_anal.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
