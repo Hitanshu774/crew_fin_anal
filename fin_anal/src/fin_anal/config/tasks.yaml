@@ -1,17 +1,27 @@
 research_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
+    Conduct thorough research on {company}
+    1. Current company status and health
+    2. Historical performance and milestones
+    3. Major challenges and opportunities
+    4. Recent news and developments
+    5. Future outlook and projections
+
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    A comprehensive research document with well organised sections covering each of the topics of {company} listed above.
+    Include specific facts, figures, and references where applicable.
   agent: researcher
 
 analysis_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Analyze the research findings on {company} and compile a detailed report.
+    1. Summarize key findings from the research
+    2. Identify trends and patterns in the data
+    3. Highlight significant challenges and opportunities
+    4. Provide insights and recommendations based on the analysis
+    5. Structure the report in a clear and logical format
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    A polished professionsal report that synthesizes the research on {company},
+    highlighting key insights, trends, and actionable recommendations. The report should be well-structured
+    with an executive summary, main sections, and a conclusion.
+  agent: analyst
