@@ -7,7 +7,7 @@ research_task:
     A list with 10 bullet points of the most relevant information about {topic}
   agent: researcher
 
-reporting_task:
+analysis_task:
   description: >
     Review the context you got and expand each topic into a full section for a report.
     Make sure the report is detailed and contains any and all relevant information.
