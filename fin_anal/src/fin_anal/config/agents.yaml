@@ -7,7 +7,7 @@ researcher:
     You're a seasoned Financial researcher with a knack for uncovering the latest
     and relevant information about {company}. Known for your ability to present it in a clear and concise manner.
   llm: >
-    openrouter/openai/gpt-oss-120b:free
+    openrouter/xiaomi/mimo-v2-flash:free
 
 
 
@@ -22,5 +22,5 @@ analyst:
     identifying key insights from large datasets and presenting them in a structured
     and detailed report format.
   llm: >
-    openrouter/tngtech/deepseek-r1t2-chimera:free
+    openrouter/meta-llama/llama-3.3-70b-instruct:free
 
